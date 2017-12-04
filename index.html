@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script src="nombresPrimers.js"></script>
+    <script src="js/nombresPrimers.js"> </script>
     <title>Nombres Primers</title>
 </head>
 
@@ -14,14 +14,15 @@
 
     <script>
         var n = prompt ("Quants de nombres primers vols que et calculi?");
-        var x;
+        var x=0;
+        var y, primer;
 
         for (var n; n>0; n--) {
 
-
-        var calculaPrimers= function () {
-            document.write (primer);
-        }
+        calculaPrimers (x, y); 
+        
+        document.write (primer);
+        
         
     }
         

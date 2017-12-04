@@ -15,13 +15,17 @@
     <script>
         var n = prompt ("Quants de nombres primers vols que et calculi?");
         var x=0;
-        var y, primer;
 
         for (var n; n>0; n--) {
 
-        calculaPrimers (x, y); 
+            calculaPrimers (x);
+            x++;
+ 
+                if (primer=true) {
+                    document.write (x+"\n");
+                }
         
-        document.write (primer);
+        
         
         
     }

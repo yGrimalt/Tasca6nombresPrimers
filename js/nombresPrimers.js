@@ -1,10 +1,13 @@
 function calculaPrimers (primer) {
-    for (var y; x>0; y--) {
-        if (x%y==0 || x%1==0) {
-            return true;
-        } else {
-            return false;
-        }
+    for (var y=0; y!=x; y++) {
+        if (x%x==0) {
+
+        } else if (x%1==0) {
+
+        } else if (x%y!=0) {
 
         }
+        
+        }
+        return primer;
 }

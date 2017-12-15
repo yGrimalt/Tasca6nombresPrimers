@@ -13,19 +13,20 @@
     <h1>Nombres Primers</h1>
 
     <script>
-        var n = prompt ("Quants de nombres primers vols que et calculi?");
-        var x=0;
+        var n = prompt ("Quants de nombres primers vols que et calculi? (fins a 100)");
 
-        for (var n; n>0; n--) {
-            
-            x++;
+        var x=1;
 
-            calculaPrimers (x);
- 
-                if (primer=true) {
-                    document.write (x+"\n");
-                }
+        for (var i=0; i<n; i++){ //while (n>0 && n<100) {
+            var nombresprimers= calculaPrimers (x);
+
+            if (nombresprimers==1) {
+                document.write (x);
             }
+            x++;
+        }
+
+        
         
         
         

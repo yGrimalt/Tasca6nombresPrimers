@@ -1,15 +1,15 @@
-function calculaPrimers (x) {
+function calculaPrimers (primer) {
 
-        var primer=true;
+    //var contador=n;
+    
 
-        for(y=2; y<=x; y++) {
-
-            if(x%y==0) {
-                primer=false;
-            } else {
-                primer=true;
-            }
-        
+    for (var i=2; primer>i; i++) {
+    
+        if (primer%i==0) {
+        primer++;
+        return 0;
         }
-        
+    
+    }
+    return 1;    
 }
